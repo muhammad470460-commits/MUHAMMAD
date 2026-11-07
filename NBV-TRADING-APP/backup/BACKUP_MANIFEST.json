@@ -1,0 +1,26 @@
+{
+  "projectName": "NBV TRADING APP",
+  "version": "1.0.0",
+  "backupDate": "2026-11-07 09:17:04 UTC",
+  "company": "NBV TRADING (SMC-PRIVATE) LIMITED",
+  "secpCuin": "886105",
+  "targetPlatforms": [
+    "Web Browser (Desktop & Mobile)",
+    "Android PWA",
+    "Android APK",
+    "Google Play Store AAB"
+  ],
+  "modulesIncluded": [
+    "frontend (React 19 + TypeScript + Tailwind)",
+    "backend (Express + WebSocket + 24h Profit Cron)",
+    "components (DailyProfitCard, InvestmentPlans, Withdrawals, UserModules, AdminReceipt, NbvVisuals)",
+    "pages (DashboardScreen, AuthScreens)",
+    "admin (AdminPanel)",
+    "assets (Images, Icons, Documents, SECP Certificate)",
+    "database (Schema, Guide, Example Dataset)",
+    "configuration (package.json, tsconfig.json, vite.config.ts, manifest.json, sw.js, .env.example)",
+    "documentation (Complete Guides for Android, API, Security, Deployment)",
+    "backup (Manifest, Restore Guide)"
+  ],
+  "verificationStatus": "Passed Clean TypeScript & Lint Checks"
+}

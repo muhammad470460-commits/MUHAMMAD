@@ -1,0 +1,47 @@
+{
+  "database": "nbv_trading_production",
+  "version": "1.0.0",
+  "entities": {
+    "users": {
+      "primaryKey": "id",
+      "indexes": [
+        "phone",
+        "referralCode",
+        "referredBy"
+      ]
+    },
+    "investment_plans": {
+      "primaryKey": "id"
+    },
+    "user_investments": {
+      "primaryKey": "id",
+      "indexes": [
+        "userId",
+        "planId"
+      ]
+    },
+    "deposits": {
+      "primaryKey": "id",
+      "indexes": [
+        "userId",
+        "status"
+      ]
+    },
+    "withdrawals": {
+      "primaryKey": "id",
+      "indexes": [
+        "userId",
+        "status"
+      ]
+    },
+    "legal_documents": {
+      "primaryKey": "id"
+    },
+    "support_messages": {
+      "primaryKey": "id",
+      "indexes": [
+        "userId"
+      ]
+    }
+  }
+}

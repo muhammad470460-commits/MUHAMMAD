@@ -1,0 +1,6 @@
+{
+  "name": "NBV Trading App",
+  "description": "Secure online global market trading platform with account registration, referral codes, and instant login.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

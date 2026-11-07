@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "id": "admin-master-001",
+      "name": "NBV Master Admin",
+      "phone": "03001234567",
+      "role": "admin",
+      "referralCode": "NBVADMIN",
+      "balance": 500000.0,
+      "totalInvestment": 0,
+      "dailyProfit": 0,
+      "status": "active"
+    }
+  ],
+  "plans": [
+    {
+      "id": "p1",
+      "name": "VIP 1 Bronze",
+      "price": 980,
+      "dailyProfit": 130,
+      "durationDays": 30,
+      "color": "#10b981"
+    },
+    {
+      "id": "p2",
+      "name": "VIP 2 Silver",
+      "price": 2500,
+      "dailyProfit": 350,
+      "durationDays": 30,
+      "color": "#3b82f6"
+    },
+    {
+      "id": "p3",
+      "name": "VIP 3 Gold",
+      "price": 5000,
+      "dailyProfit": 750,
+      "durationDays": 35,
+      "color": "#f59e0b"
+    },
+    {
+      "id": "p4",
+      "name": "VIP 4 Platinum",
+      "price": 12000,
+      "dailyProfit": 1900,
+      "durationDays": 40,
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "p5",
+      "name": "VIP 5 Diamond",
+      "price": 25000,
+      "dailyProfit": 4200,
+      "durationDays": 45,
+      "color": "#06b6d4"
+    }
+  ],
+  "paymentAccounts": [
+    {
+      "id": "pay1",
+      "method": "EasyPaisa",
+      "accountTitle": "NBV Official Merchant",
+      "accountNumber": "03123456789",
+      "instructions": "Send amount and upload screenshot with TID"
+    },
+    {
+      "id": "pay2",
+      "method": "JazzCash",
+      "accountTitle": "NBV Official Collection",
+      "accountNumber": "03019876543",
+      "instructions": "Enter 11-digit TID and screenshot"
+    }
+  ],
+  "legalDocuments": [
+    {
+      "id": "secp_certificate",
+      "title": "SECP Certificate of Incorporation",
+      "companyName": "NBV TRADING (SMC-PRIVATE) LIMITED",
+      "cuin": "886105",
+      "date": "30-OCT-2026",
+      "imageUrl": "/assets/secp-certificate-nbv.png",
+      "verified": true
+    }
+  ]
+}
